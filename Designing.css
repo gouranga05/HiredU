@@ -1,0 +1,87 @@
+.headers{
+    display: flex;
+}
+.logo{
+    height: 30px;
+    width: fit-content;
+    background-color: rgb(237, 83, 12);
+    border-radius: 50%;  
+}
+.webname{
+    height: 20px;
+    width:auto;
+    margin:5px;
+    background-color: aqua;
+} 
+.login{
+    height: 50px;
+     margin: 10px;
+     margin-left: auto;   /* shifts a flex item to the left */
+    background-color: rgb(235, 51, 60);
+    border-radius: 20%;
+}
+ .navs{
+    display: flex;
+    height:30px;
+    width:40px;
+    text-decoration: none;
+    /* text-underline-offset: none; */
+    margin: auto; 
+     /* margin-right: auto;  */    
+} 
+.item:hover{
+    color: rgb(68, 236, 115);    
+}
+.item{
+    color: rgb(223, 29, 161);
+    margin: 15px;
+    text-decoration: none;
+}
+.premium{
+    height: 20%;
+    width: 50%;
+    padding: 5px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(141, 236, 236);
+    border: 10px;
+    border-radius: 30px;
+    border-color: rgb(235, 49, 49);
+}
+#prem{
+    background-color: blue;
+    color: yellow;
+    border-radius: 30px;
+    
+}
+.button{
+    margin-left: 10px;
+}
+.main{
+    display: flex;
+}
+.content{
+    /* height: 20px;
+    width: 20%; */
+    margin: 10px;
+}
+.drop{
+   width: 30%; 
+   background-color: rgb(188, 235, 207);
+}
+.opt{
+    display: flex;
+}
+.question{
+    background-color: antiquewhite;
+    width: 57%;
+}
+.options{
+    margin: 10px;
+    width: 50%;
+}
+.use{
+    margin-left: auto;
+    width: 20%;
+}
